@@ -1,1 +1,36 @@
-<p>card works!</p>
+<div class="card">
+  <div class="card-header">
+    <img [src]="product()?.image" alt="" />
+  </div>
+  <div class="card-content">
+    <h2>{{ product()?.title }}</h2>
+    <p>{{ product()?.description }}</p>
+    <div class="quantity">
+      <button type="">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M3 8h10a1 1 0 1 0 0-2H3a1 1 0 1 0 0 2z" />
+        </svg>
+      </button>
+      <button class="quantity-btn" type="">1</button>
+      <button type="">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path
+            d="M9 8H7V6a1 1 0 0 0-2 0v2H3a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0V10h2a1 1 0 0 0 0-2z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="price">${{ product()?.price }}</div>
+    <button class="add-to-cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M6 2L3 6v14a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6l-3-4zM9 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      Add to Cart
+    </button>
+  </div>
+</div>
