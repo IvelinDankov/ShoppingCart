@@ -1,7 +1,9 @@
 <ul>
-  @for(product of allProducts; track product.id){
+  @if(isLoading()) {
+  <span class="loader"></span>
+  } @else { @for(product of allProducts; track product.id){
   <li>
     <app-card [product]="product" />
   </li>
-  }
+  } }
 </ul>

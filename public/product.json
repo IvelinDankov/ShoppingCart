@@ -4,41 +4,47 @@
     "title": "Wireless Headphones",
     "description": "Premium noise-cancelling over-ear headphones with 30-hour battery life and crystal clear sound quality.",
     "price": 129.99,
-    "image": "https://images.unsplash.com/photo-1613040809021-889166c9a8b3?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1612858249937-1cc0852093dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 1
   },
   {
     "id": 2,
     "title": "Smart Watch",
     "description": "Advanced fitness tracker with heart rate monitoring, GPS, and 7-day battery life. Water resistant up to 50m.",
     "price": 299.0,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "stock": 0
   },
   {
     "id": 3,
     "title": "Coffee Maker",
     "description": "Programmable 12-cup coffee maker with built-in grinder and temperature control for perfect brew every time.",
     "price": 89.5,
-    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "stock": 1
   },
   {
     "id": 4,
     "title": "Leather Backpack",
     "description": "Genuine leather backpack with multiple compartments, laptop sleeve, and adjustable padded straps.",
     "price": 179.99,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "stock": 2
   },
   {
     "id": 5,
     "title": "Wireless Mouse",
     "description": "Ergonomic wireless mouse with 8 programmable buttons, 16000 DPI sensor, and RGB lighting.",
     "price": 49.99,
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "stock": 2
   },
   {
     "id": 6,
     "title": "Gaming Keyboard",
     "description": "Mechanical gaming keyboard with RGB backlighting, hot-swappable switches, and anti-ghosting.",
     "price": 149.0,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0"
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "stock": 3
   }
 ]

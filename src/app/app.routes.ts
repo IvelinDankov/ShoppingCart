@@ -2,6 +2,7 @@ import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component.js";
 import { NoContentComponent } from "./no-content/no-content.component.js";
 import { ProductsComponent } from "./products/products/products.component.js";
+import { ShoppingCartComponent } from "./products/shopping-cart/shopping-cart.component.js";
 
 export const routes: Routes = [
   {
@@ -18,7 +19,15 @@ export const routes: Routes = [
     component: ProductsComponent,
   },
   {
-    path: "**",
+    path: "shopping-cart",
+    component: ShoppingCartComponent,
+  },
+  {
+    path: "404",
     component: NoContentComponent,
+  },
+  {
+    path: "**",
+    redirectTo: "/404",
   },
 ];

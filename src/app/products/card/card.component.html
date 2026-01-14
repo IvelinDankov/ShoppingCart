@@ -1,10 +1,14 @@
 <div class="card">
+  <span class="out-of-stock" [class.stock]="product().stock">
+    @if(product().stock) {
+    {{ product().stock }} left } @else { out of stock }
+  </span>
   <div class="card-header">
-    <img [src]="product()?.image" alt="" />
+    <img [src]="product().image" alt="" />
   </div>
   <div class="card-content">
-    <h2>{{ product()?.title }}</h2>
-    <p>{{ product()?.description }}</p>
+    <h2>{{ product().title }}</h2>
+    <p>{{ product().description }}</p>
     <div class="quantity">
       <button type="">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
@@ -20,8 +24,8 @@
         </svg>
       </button>
     </div>
-    <div class="price">${{ product()?.price }}</div>
-    <button class="add-to-cart">
+    <div class="price">${{ product().price }}</div>
+    <button class="add-to-cart" (click)="onAddToCart(product())">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
         <path
           d="M6 2L3 6v14a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6l-3-4zM9 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"

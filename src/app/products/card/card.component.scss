@@ -5,6 +5,7 @@
   border-radius: 4px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out;
+  position: relative;
 
   &:hover {
     box-shadow: 0 0.5px 4px rgba(0, 0, 0, 0.5);
@@ -44,4 +45,22 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #004894;
+  }
+
+  .out-of-stock {
+    position: absolute;
+    display: block;
+    top: 0.1rem;
+    right: 0.1rem;
+    color: red;
+  }
+}
+
+.stock {
+  color: green;
 }

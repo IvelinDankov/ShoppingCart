@@ -4,4 +4,11 @@ export interface Product {
   description: string;
   price: number;
   image: string;
+  stock: number;
+}
+
+export interface CartItem {
+  productId: number;
+  quantity: number;
+  product: Product;
 }

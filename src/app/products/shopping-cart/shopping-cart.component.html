@@ -1,0 +1,11 @@
+<div class="shopping-cart-container">
+  <h2 class="shopping-cart-heading">Shopping Cart</h2>
+
+  <ul>
+    @for(item of cartService.cart(); track item.productId) {
+    <li>
+      <app-cart-item [item]="item.product" />
+    </li>
+    }
+  </ul>
+</div>
