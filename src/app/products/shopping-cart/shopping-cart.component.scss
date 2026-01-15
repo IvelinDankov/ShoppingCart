@@ -26,3 +26,15 @@ ul li {
   border-radius: 5px;
   overflow: hidden;
 }
+
+.summary {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+
+  span {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
