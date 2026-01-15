@@ -1,0 +1,43 @@
+<section class="section__checkout">
+  <h5>Checkout</h5>
+  <form>
+    <p class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" value="" id="firstName" />
+    </p>
+    <p class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" value="" id="lastName" />
+    </p>
+    <p class="form-group">
+      <label for="email">Email</label>
+      <input type="text" name="email" value="" id="email" />
+    </p>
+    <p class="form-group">
+      <label for="city">City</label>
+      <input type="text" name="city" value="" id="city" />
+    </p>
+    <p class="form-group">
+      <label for="postalCode">Postal code</label>
+      <input type="number" name="postalCode" value="" id="postalCode" />
+    </p>
+    <p class="form-group">
+      <label for="Tel">Tel</label>
+      <input type="number" name="tel" value="" id="tel" />
+    </p>
+    <p class="form-group">
+      <label for="street">Street</label>
+      <input type="text" name="street" value="" id="street" />
+    </p>
+    <p class="form-group">
+      <label for="number">Number</label>
+      <input type="text" name="number" value="" id="number" />
+    </p>
+  </form>
+
+  <div class="total">
+    <p>
+      {{ cartService.totalPrice() | currency }}
+    </p>
+  </div>
+</section>

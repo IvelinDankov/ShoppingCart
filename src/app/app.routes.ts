@@ -3,6 +3,7 @@ import { HomeComponent } from "./home/home.component.js";
 import { NoContentComponent } from "./no-content/no-content.component.js";
 import { ProductsComponent } from "./products/products/products.component.js";
 import { ShoppingCartComponent } from "./products/shopping-cart/shopping-cart.component.js";
+import { CheckoutComponent } from "./products/card/checkout/checkout.component.js";
 
 export const routes: Routes = [
   {
@@ -21,6 +22,10 @@ export const routes: Routes = [
   {
     path: "shopping-cart",
     component: ShoppingCartComponent,
+  },
+  {
+    path: "checkout",
+    component: CheckoutComponent,
   },
   {
     path: "404",
