@@ -1,3 +1,4 @@
 <img [src]="item().image" alt="" />
 <h5>{{ item().title }}</h5>
 <p>{{ item().price | currency : "$" }}</p>
+<button (click)="onRemoveItem()">Remove</button>
